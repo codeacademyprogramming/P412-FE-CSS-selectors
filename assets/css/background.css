@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 5000px;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  /* background-image: url(../images/road.jpeg); */
+  background-image: url(https://wallpaperaccess.com/full/366994.jpg);
+  /*
+    repeat, no-repeat, repeat-y, repeat-x
+  */
+  /* background-repeat: no-repeat; */
+  /* 
+    ------ x axis ------
+    left center right
+    ------ y axis ------
+    top center bottom
+  */
+  /* background-position: center; */
+
+  /* background-size: cover; */
+
+  /* background: white url(https://wallpaperaccess.com/full/366994.jpg) no-repeat
+    scroll center center; */
+
+  border: 2px solid black;
+  text-align: center;
+  color: white;
+  /* -webkit-background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 14;
+}
